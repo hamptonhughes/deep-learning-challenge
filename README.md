@@ -19,7 +19,8 @@ For the model build, I initially used one hidden layer with 5 neurons and a relu
 
 I tried various tactics to optmimize the model, including adding more neurons, more hidden layers, different activations functions and changing the bins of the two variables we used earlier.  Ultimately, I was not able to increase the accuracy by a substantial amount.  I ended up using 2 hidden layers with 20 and 10 neurons, each.  I used a tanh activation function for the hidden layers and a sigmoid function for the output layer.  I also changed the bins on the Classification and Application type variables in order to include more rare instances.  <br><br>
     ![alt text](images/model_build.png)
-##Results
+    
+## Results
 
 After numerous tries at different configurations, I was able to only slightly optimize the model and get an accuracy score around 73.6% for the training data.  Ultimately, there is still a lot of room for improvement in this model and I would not recommend the model for assessing whether or not a new venture will be successful.  
 
